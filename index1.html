@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="post">
+    <h2>Job Appliocation</h2>    
+
+    <label for="name"> Name:</label> <br>
+    <input type="text" id="name"><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email"><br>
+  <label for="phno">Phone:</label><br>
+ <input type="number" name="phone" id="phno"><br>
+ <label for="cv">Resume:</label><br>
+  <input type="file" name="resume" id="cv"><br>
+  <label for="exp">Experience(years)</label><br>
+  <input type="number" id="exp" min="0" max="50"><br>
+
+  <fieldset>
+    <legend>Skills</legend>
+    <label for="html">HTML:</label><br> 
+    <input type="checkbox" name="" id="html"><br>
+    <label for="css">CSS:</label> <br>
+    <input type="checkbox" id="css"><br>
+    <label for="js">Java Script:</label><br>
+  <input type="checkbox" id="js"><br>
+  </fieldset><br>
+
+  <legend>Higher Education:</legend>
+  <select name="qualification" for="edu">
+  <option value="edu">High school</option>
+  <option value="edu">Degree</option>
+  <option value="edu">MS</option></select>
+    <br>
+    <br>
+
+  <div>
+    
+      <label for="ft,pt">Availability:</label>
+      <label for="ft">Full Time</label>
+      <input type="radio" name="availability" id="ft">
+      <label for="pt">Part Time</label>
+      <input type="radio" name="availability"  id="pt">
+  </div><br>
+
+  <label for="info">Additional Comments:</label><br>
+  <textarea name="comment" id="info" cols="30" rows="3"></textarea>
+    </form>
+
+</body>
+</html>
